@@ -23,18 +23,24 @@ Features
 • Specify directory in the form path/to/directory for the location of the tweets.
 The method will confirm that your inputs are directories and prompt you if they
 are not.
+
 • Parse the tweets into a concurrent linked deque using virtual threads. The
 program is capable of handling all the tweets in the directory.
+
 • Specify the location of the lexicon that you wish to use in the form
 path/to/lexicon/chosen.txt. The program can parse 1 lexicon into a map
 structure.
+
 • The lexicon parses the files by splitting the word from the value at regex “ , ”
 as this is the common structure of those files.
+
 • After specifying the directory to write the report, the user can execute the
 analysis of the tweets. The program will prompt the user to write a name for
 the file.
+
 • Once the option to execute analysis is selected the program will perform the
 analysis via virtual threads and write the file.
+
 • Inside the options menu, an option exists for the user to create a directory by
 specifying the path in the form path/to/directory. This will create a directory if
 the pathway is correct.
